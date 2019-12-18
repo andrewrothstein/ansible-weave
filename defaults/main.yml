@@ -1,0 +1,10 @@
+---
+# defaults file for weave
+weave_ver: v2.6.0
+weave_mirror: https://github.com/weaveworks/weave/releases/download
+weave_install_dir: /usr/local/bin
+weave_checksums:
+  # https://github.com/weaveworks/weave/releases/download/v2.5.2/weave
+  v2.5.2: sha256:7234119a9f73eb4d43cf247078051831fe116ad58debee03032c1a535501cfed
+  # https://github.com/weaveworks/weave/releases/download/v2.6.0/weave
+  v2.6.0: sha256:adb706bebf37e391029be1ac1a6005f4097020f04b0d2527ea209b821ead9aa7

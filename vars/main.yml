@@ -1,0 +1,6 @@
+---
+# vars file for weave
+weave_url: '{{ weave_mirror }}/{{ weave_ver }}/weave'
+weave_checksum: '{{ weave_checksums[weave_ver] }}'
+weave_install_exe: '{{ weave_install_dir }}/weave-{{ weave_ver }}'
+weave_link: '{{ weave_install_dir }}/weave'
