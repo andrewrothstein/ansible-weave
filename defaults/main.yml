@@ -1,6 +1,6 @@
 ---
 # defaults file for weave
-weave_ver: v2.6.2
+weave_ver: v2.7.0
 weave_mirror: https://github.com/weaveworks/weave/releases/download
 weave_install_dir: /usr/local/bin
 weave_checksums:
@@ -10,3 +10,5 @@ weave_checksums:
   v2.6.0: sha256:adb706bebf37e391029be1ac1a6005f4097020f04b0d2527ea209b821ead9aa7
   # https://github.com/weaveworks/weave/releases/download/v2.6.2/weave
   v2.6.2: sha256:f7a74b9ae51141b26454621c7e57ac9f64a19663a20d713312fefeb6e7ff63b7
+  # https://github.com/weaveworks/weave/releases/download/v2.7.0/weave
+  v2.7.0: sha256:b4bf6da02887604098d0eaafa89a1173a78f5e2d9871f5d6d48f2c6822980b7b
