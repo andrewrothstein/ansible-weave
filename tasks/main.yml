@@ -1,5 +1,5 @@
 ---
-- name: download
+- name: downloading {{ weave_url }} to {{ weave_install_exe }}
   become: yes
   become_user: root
   get_url:
@@ -7,7 +7,7 @@
     dest: '{{ weave_install_exe }}'
     checksum: '{{ weave_checksum }}'
     mode: 0755
-- name: link
+- name: linking {{ weave_link }} to {{ weave_install_exe }}
   become: yes
   become_user: root
   file:
